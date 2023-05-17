@@ -8,11 +8,12 @@ import { fetchRandomGreeting } from '../redux/actions';
 
 const Greeting = () => {
   const greeting = useSelector((state) => state.greeting);
-  console.log(greeting);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchRandomGreeting());
   }, [dispatch]);
+
+  const handleClick = () => dispatch(fetchRandomGreeting());
 
   return (
     <div className="container">
@@ -21,14 +22,13 @@ const Greeting = () => {
         {' '}
         <AiFillDashboard />
       </h1>
-      <Card style={{ width: '28rem' }}>
+      <Card style={{ width: '28rem' }} className="card">
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card&#39;s content.
+          <Card.Title className="text-muted">I have some nice greetings for you</Card.Title>
+          <Card.Text className="text">
+            {greeting}
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button className="p-2" variant="primary" onClick={handleClick}>Click me for a random greeting</Button>
         </Card.Body>
       </Card>
     </div>
