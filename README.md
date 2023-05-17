@@ -31,7 +31,7 @@
 # 📖 Hello Rails Backend <a name="about-project"></a>
 This is a simple React application that fetches data from an API endpoint and displays the random greetings data. It is developed using React and Redux (State management).
 
-[The API Rails Back End Application](https://github.com/AbayomiOlaoye/hello-rails-backend)
+- [The API Rails Back End Application](https://github.com/AbayomiOlaoye/hello-rails-backend)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,7 +70,7 @@ This is a simple React application that fetches data from an API endpoint and di
 
 ### Key Features <a name="key-features"></a>
 
-- **App generates Random Greeting when button gets an `onClick` event**
+- App generates Random Greeting when button gets an `onClick` event
 - Minimal styling
 
 
@@ -128,7 +128,7 @@ To run the project, execute the following command:
 - Twitter: [@Abayomi](https://twitter.com/olaoyeelijah)
 - LinkedIn: [@MOluwatoyin](https://linkedin.com/in/oluwatoyinolaoye)
 
-p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
